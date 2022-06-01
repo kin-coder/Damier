@@ -46,12 +46,12 @@
         <form action="" method="post">
 
             <div>
-                <label for="ligne">Ligne</label>
+                <label for="ligne">Ligne:</label>
                 <input type="text" name="ligne" class="input-group-text"> <br>
             </div>
 
             <div>
-                <label for="ligne">Colonne</label>
+                <label for="ligne">Colonne:</label>
                 <input type="text" name="colonne" class="input-group-text">
             </div>
             <br>
@@ -140,7 +140,7 @@
     </script>
 
     <script>
-      
+
 
         function download_image() {
             var canvas = document.getElementById("mcanvas");
